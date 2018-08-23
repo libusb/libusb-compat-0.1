@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8EF404E1A74EDCA00F505F3 /* core.c in Sources */ = {isa = PBXBuildFile; fileRef = C8EF404A1A74EDCA00F505F3 /* core.c */; };
+		C8EF404F1A74EDCA00F505F3 /* usb.h in Headers */ = {isa = PBXBuildFile; fileRef = C8EF404C1A74EDCA00F505F3 /* usb.h */; };
+		C8EF40501A74EDCA00F505F3 /* usbi.h in Headers */ = {isa = PBXBuildFile; fileRef = C8EF404D1A74EDCA00F505F3 /* usbi.h */; };
+		C8EF40521A74EE6D00F505F3 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = C8EF40511A74EE6D00F505F3 /* config.h */; };
+		C8EF408F1A74FD8F00F505F3 /* libusb-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C8EF40841A74FD8700F505F3 /* libusb-1.0.0.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8EF40831A74FD8700F505F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8EF40791A74FD8700F505F3 /* libusb.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 008FBF311628B79300BC5BE2;
+			remoteInfo = libusb;
+		};
+		C8EF40851A74FD8700F505F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8EF40791A74FD8700F505F3 /* libusb.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 008FBFBD1628B9FE00BC5BE2;
+			remoteInfo = xusb;
+		};
+		C8EF40871A74FD8700F505F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8EF40791A74FD8700F505F3 /* libusb.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 008FBFF51628BB8B00BC5BE2;
+			remoteInfo = dpfp;
+		};
+		C8EF40891A74FD8700F505F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8EF40791A74FD8700F505F3 /* libusb.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 008FC0051628BBDB00BC5BE2;
+			remoteInfo = dpfp_threaded;
+		};
+		C8EF408B1A74FD8700F505F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8EF40791A74FD8700F505F3 /* libusb.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 008FC0151628BC0300BC5BE2;
+			remoteInfo = fxload;
+		};
+		C8EF408D1A74FD8700F505F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8EF40791A74FD8700F505F3 /* libusb.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 008FC0261628BC6B00BC5BE2;
+			remoteInfo = listdevs;
+		};
+		C8EF40901A74FD9200F505F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8EF40791A74FD8700F505F3 /* libusb.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 008FBF301628B79300BC5BE2;
+			remoteInfo = libusb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8EF403A1A74ED1F00F505F3 /* libusb-compat-0.1.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libusb-compat-0.1.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8EF404A1A74EDCA00F505F3 /* core.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = core.c; sourceTree = "<group>"; };
+		C8EF404C1A74EDCA00F505F3 /* usb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usb.h; sourceTree = "<group>"; };
+		C8EF404D1A74EDCA00F505F3 /* usbi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usbi.h; sourceTree = "<group>"; };
+		C8EF40511A74EE6D00F505F3 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		C8EF40791A74FD8700F505F3 /* libusb.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libusb.xcodeproj; path = ../../libusb/Xcode/libusb.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8EF40371A74ED1F00F505F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8EF408F1A74FD8F00F505F3 /* libusb-1.0.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8EF40311A74ED1F00F505F3 = {
+			isa = PBXGroup;
+			children = (
+				C8EF40791A74FD8700F505F3 /* libusb.xcodeproj */,
+				C8EF40511A74EE6D00F505F3 /* config.h */,
+				C8EF40491A74EDCA00F505F3 /* libusb */,
+				C8EF403B1A74ED1F00F505F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8EF403B1A74ED1F00F505F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8EF403A1A74ED1F00F505F3 /* libusb-compat-0.1.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8EF40491A74EDCA00F505F3 /* libusb */ = {
+			isa = PBXGroup;
+			children = (
+				C8EF404A1A74EDCA00F505F3 /* core.c */,
+				C8EF404C1A74EDCA00F505F3 /* usb.h */,
+				C8EF404D1A74EDCA00F505F3 /* usbi.h */,
+			);
+			name = libusb;
+			path = ../libusb;
+			sourceTree = "<group>";
+		};
+		C8EF407A1A74FD8700F505F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8EF40841A74FD8700F505F3 /* libusb-1.0.0.dylib */,
+				C8EF40861A74FD8700F505F3 /* xusb */,
+				C8EF40881A74FD8700F505F3 /* dpfp */,
+				C8EF408A1A74FD8700F505F3 /* dpfp_threaded */,
+				C8EF408C1A74FD8700F505F3 /* fxload */,
+				C8EF408E1A74FD8700F505F3 /* listdevs */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C8EF40381A74ED1F00F505F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8EF404F1A74EDCA00F505F3 /* usb.h in Headers */,
+				C8EF40501A74EDCA00F505F3 /* usbi.h in Headers */,
+				C8EF40521A74EE6D00F505F3 /* config.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C8EF40391A74ED1F00F505F3 /* libusb-compat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8EF403E1A74ED1F00F505F3 /* Build configuration list for PBXNativeTarget "libusb-compat" */;
+			buildPhases = (
+				C8EF40361A74ED1F00F505F3 /* Sources */,
+				C8EF40371A74ED1F00F505F3 /* Frameworks */,
+				C8EF40381A74ED1F00F505F3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8EF40911A74FD9200F505F3 /* PBXTargetDependency */,
+			);
+			name = "libusb-compat";
+			productName = "libusb-compat";
+			productReference = C8EF403A1A74ED1F00F505F3 /* libusb-compat-0.1.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8EF40321A74ED1F00F505F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = libusb;
+				TargetAttributes = {
+					C8EF40391A74ED1F00F505F3 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = C8EF40351A74ED1F00F505F3 /* Build configuration list for PBXProject "libusb-compat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C8EF40311A74ED1F00F505F3;
+			productRefGroup = C8EF403B1A74ED1F00F505F3 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C8EF407A1A74FD8700F505F3 /* Products */;
+					ProjectRef = C8EF40791A74FD8700F505F3 /* libusb.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C8EF40391A74ED1F00F505F3 /* libusb-compat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C8EF40841A74FD8700F505F3 /* libusb-1.0.0.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = "libusb-1.0.0.dylib";
+			remoteRef = C8EF40831A74FD8700F505F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C8EF40861A74FD8700F505F3 /* xusb */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = xusb;
+			remoteRef = C8EF40851A74FD8700F505F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C8EF40881A74FD8700F505F3 /* dpfp */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = dpfp;
+			remoteRef = C8EF40871A74FD8700F505F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C8EF408A1A74FD8700F505F3 /* dpfp_threaded */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = dpfp_threaded;
+			remoteRef = C8EF40891A74FD8700F505F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C8EF408C1A74FD8700F505F3 /* fxload */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = fxload;
+			remoteRef = C8EF408B1A74FD8700F505F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C8EF408E1A74FD8700F505F3 /* listdevs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = listdevs;
+			remoteRef = C8EF408D1A74FD8700F505F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8EF40361A74ED1F00F505F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8EF404E1A74EDCA00F505F3 /* core.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8EF40911A74FD9200F505F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libusb;
+			targetProxy = C8EF40901A74FD9200F505F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C8EF403C1A74ED1F00F505F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C8EF403D1A74ED1F00F505F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C8EF403F1A74ED1F00F505F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				HEADER_SEARCH_PATHS = ../../libusb/libusb/;
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "@executable_path/libusb-compat-0.1.dylib";
+				PRODUCT_NAME = "libusb-compat-0.1";
+			};
+			name = Debug;
+		};
+		C8EF40401A74ED1F00F505F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				HEADER_SEARCH_PATHS = ../../libusb/libusb/;
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "@executable_path/libusb-compat-0.1.dylib";
+				PRODUCT_NAME = "libusb-compat-0.1";
+				SEPARATE_STRIP = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8EF40351A74ED1F00F505F3 /* Build configuration list for PBXProject "libusb-compat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8EF403C1A74ED1F00F505F3 /* Debug */,
+				C8EF403D1A74ED1F00F505F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8EF403E1A74ED1F00F505F3 /* Build configuration list for PBXNativeTarget "libusb-compat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8EF403F1A74ED1F00F505F3 /* Debug */,
+				C8EF40401A74ED1F00F505F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8EF40321A74ED1F00F505F3 /* Project object */;
+}
