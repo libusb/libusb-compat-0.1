@@ -46,6 +46,11 @@ typedef unsigned __int32  uint32_t;
 #include <stdint.h>
 #endif
 
+/* On linux PATH_MAX is defined in linux/limits.h. */
+#if defined(__linux__)
+#include <linux/limits.h>
+#endif
+
 /*
  * USB spec information
  *
