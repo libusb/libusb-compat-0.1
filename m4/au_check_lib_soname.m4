@@ -32,8 +32,7 @@ libusb_close((void*)0);
             [AS_VAR_SET([ac_Lib_SONAME], [unknown])])
           AS_IF([test x"$ac_Lib_SONAME" != x"unknown" ], [
             AS_VAR_SET([$1][_SONAME], ["$ac_Lib_SONAME"])
-            $4], [
-            $5])], [
+            $4])], [
           AS_VAR_SET([ac_Lib_SONAME], [unknown])
           $5])], [
         AS_VAR_SET([ac_Lib_SONAME], ["$[$1][_SONAME]"])
